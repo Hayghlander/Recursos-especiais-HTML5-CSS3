@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> hrml shiv </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+        <!--torna algumas tags novas possiveis de serem entendidas por navegadores mais antigos-->
+        
+        <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+
+</heady>
+
+<body>
+        
+</body>
+</html>

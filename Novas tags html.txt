@@ -1,0 +1,56 @@
+NOVAS TAGS HTML5 ==>
+
+________________________________________________
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> Novas tags html </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</heady>
+
+<body>
+       <!--cabecalho-->
+        <header>
+                <h1> Logo </h1>
+                <span> Meu site </span>
+        </header>
+
+         <!--navegacao -->
+        <nav>
+                <ul>
+                        <li><a href=""> Home </a></li>
+                        <li><a href=""> Sobre </a></li>
+                        <li><a href=""> Contato </a></li>
+                </ul>
+        </nav>
+        
+        <!--rodape -->
+        <footer>
+                <p> &copy; 2020 - Hayghlander Marques </p>
+        </footer>
+</body>
+</html>
+________________________________________________________________
+
+CSS3 ==>
+
+header {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    padding:  10px;
+}
+
+nav {
+    border: 1px solid #ccc;
+    background: #524e4e;
+    padding:  10px;
+}
+
+footer {
+    background: black;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> Novas tags de input </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</heady>
+
+<body>
+
+        <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+
+                <!-- email required -->
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <br><br>
+
+                <!-- Numero -->
+                <label for="numero">Número</label>
+                <input type="number" id="numero" min="1" max="20" step="1">
+                <br><br>
+
+                <!-- url -->
+                <label for="url">Url</label>
+                <input type="url" id="url" placeholder="ex: http://www">
+                <br><br>
+
+                <!-- Pesquisa -->
+                <label for="pesquisa">Pesquisa</label>
+                <input type="search" id="pesquisa">
+                <br><br>
+
+                <!-- Range -->
+                <label for="range">Range</label>
+                <input type="range" id="range" min="1" max="10" value="5">
+                <br><br>
+
+                <!-- Data -->
+                <label for="data">Data</label>
+                <input type="date" id="data">
+                <br><br>
+
+                <!-- cor -->
+                <label for="cor">Data</label>
+                <input type="color" id="color">
+                <br><br>
+
+                <input type="submit" name="" value="Enviar">
+
+        </form>
+</body>
+
+</html>

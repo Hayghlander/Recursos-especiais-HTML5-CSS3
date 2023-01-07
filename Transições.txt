@@ -1,0 +1,58 @@
+Transições ==>
+________________________________________
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> Animações </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</heady>
+
+<body>
+        <div id="caixa">
+           
+        </div>
+        
+</body>
+</html>
+_____________________________________________________________
+
+CSS ==>
+
+/**** Transicoes ***/
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: yellow;
+    transition: width 3s, background 3s;
+
+    /*  transition: all 3s; 
+define que todos eleentos sejam modificados.*/
+    /*
+    -webkit-transition:
+    -o-transition:
+    -moz-transition:
+    */
+}
+      /*Em unica linha
+    animation: animacao-caixa 5s 3s 3 alternate;
+   */
+   
+    /* 
+    -webkit-animation-name: animacao-caixa;
+    -o-animation-name: animacao-caixa;
+    -moz-animation-name: animacao-caixa;
+    */
+  
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> Flexbox - Flexible Box Layout </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</heady>
+
+<body>
+       
+        <h1> Flexbox </h1>
+        <div id="conteudo">
+                <div class="item ordem1"> 01 </div>
+                <div class="item ordem2"> 02 </div>
+                <div class="item ordem3"> 03 </div>
+                <div class="item ordem4"> 04 </div>
+        </div>
+
+</body>
+
+</html>
+
+________________________________________________________
+
+CSS 
+
+/* Flebox - Flexible Box Layout */
+
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+
+    /*Define proporcao de espaco ocupado por um item*/
+    flex-grow: 0;
+
+    /*Define a capacidade de reducao de tamanho do item*/
+    flex-shrink: 1;
+
+    /*Indica o tamanho inicial do flex item antes da distribuicao do espaco restante*/
+    flex-basis: 100px;
+}
+
+.item1 {
+    flex-grow: 1;
+}

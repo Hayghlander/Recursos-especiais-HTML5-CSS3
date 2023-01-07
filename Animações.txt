@@ -1,0 +1,73 @@
+Animações ==>
+________________________________________
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<heady>
+
+        <title> Animações </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</heady>
+
+<body>
+        <div id="caixa">
+           
+        </div>
+        
+</body>
+</html>
+_____________________________________________________________
+
+CSS ==>
+
+/**** Animacoes ***/
+
+@keyframes animacao-caixa {
+    from {
+        background:red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: blue;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    /*Posicao se movimenta*/
+    position: relative;
+    /*Nome*/
+    animation-name: animacao-caixa;
+    /*Tempo*/
+    animation-duration: 5s;
+    /*Esperar*/
+    animation-delay: 3s;
+    /*repete 3 vezes*/
+    animation-iteration-count: 3;
+    /*Volta de forma animada ao inicio*/
+    animation-direction: alternate;
+    /*Inverte a execucao*/
+    animation-direction: reverse;
+    
+      /*Em unica linha
+    animation: animacao-caixa 5s 3s 3 alternate;
+   */
+   
+    /* 
+    -webkit-animation-name: animacao-caixa;
+    -o-animation-name: animacao-caixa;
+    -moz-animation-name: animacao-caixa;
+    */
+  
+}
